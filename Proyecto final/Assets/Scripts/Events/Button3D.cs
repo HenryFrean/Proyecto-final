@@ -7,11 +7,10 @@ public class Button3D : MonoBehaviour
 {
     public UnityEvent OnTriggerButton3D;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerExit(Collider other)
     {
         if(other.CompareTag("PLAYER"))
         {
-            Debug.Log("funciona");
             OnTriggerButton3D?.Invoke();
         }
     }
