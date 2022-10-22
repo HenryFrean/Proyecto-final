@@ -27,7 +27,7 @@ public class MovementPlayer : MonoBehaviour
        if (Input.GetKey(KeyCode.A))
        { 
             directionPlayer += Vector3.left;
-            if(!IsAnimation("LEFT")) playerAnimator.SetTrigger("LEFT");
+            //if(!IsAnimation("LEFT")) playerAnimator.SetTrigger("LEFT");
        }
       
        if (Input.GetKey(KeyCode.W))
@@ -39,7 +39,7 @@ public class MovementPlayer : MonoBehaviour
        if (Input.GetKey(KeyCode.D))
        {
            directionPlayer += Vector3.right;
-           if(!IsAnimation("RIGHT")) playerAnimator.SetTrigger("RIGHT");
+          // if(!IsAnimation("RIGHT")) playerAnimator.SetTrigger("RIGHT");
        }
        if (Input.GetKey(KeyCode.S))
        {
