@@ -61,10 +61,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.77
-  m_Height: 3.74
+  m_Radius: 0.8730979
+  m_Height: 3.7399998
   m_Direction: 1
-  m_Center: {x: 0, y: 2, z: 0}
+  m_Center: {x: 0.0000092984255, y: 2, z: -0.000423491}
 --- !u!95 &5772809662975479463
 Animator:
   serializedVersion: 4
@@ -95,7 +95,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7800397131068288123}
   - component: {fileID: 7800397131068288120}
-  - component: {fileID: 5772809664555931096}
   m_Layer: 0
   m_Name: EnemiesA
   m_TagString: Untagged
@@ -134,23 +133,7 @@ MonoBehaviour:
   speed: 3
   direction: {x: 3, y: 0, z: 0}
   enemyType: 0
---- !u!114 &5772809664555931096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7800397131068288126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2cc969884ca64548a20ec2e05d7f8fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wayPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  playerTransform: {fileID: 0}
 --- !u!1001 &7296092200951029588
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -55,6 +55,8 @@ public class PlayerCollision : MonoBehaviour
                 NewSound(die, transform.position, 1f);
                 PlayerCollision.OnDead?.Invoke();
                 Debug.Log("GAME OVER");
+                AudioSource.FindObjectOfType<AudioSource>(die);
+                Destroy(this);
             }
         }
     }

@@ -8,17 +8,11 @@ public class MovementPlayer : MonoBehaviour
     [Range(1f, 10f)] float speed = 2f;
 
     public float cameraAxis = 0f;
-    
+
     Vector3 directionPlayer;
 
     [SerializeField] Animator playerAnimator;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+ 
     void Update()
     {     
         directionPlayer = Vector3.zero;

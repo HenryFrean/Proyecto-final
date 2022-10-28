@@ -5,7 +5,7 @@ using UnityEngine;
 public class Munition : MonoBehaviour
 {
     [SerializeField]
-    [Range(2, 10)]
+    [Range(2, 30)]
     private int damagePoints = 2;
     public int DamagePoints { get { return damagePoints; } }
 }
